@@ -1,0 +1,422 @@
+*, body{
+    
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background:#ffe6d8;
+    display:flex;
+    width:100%;
+    height:92px;
+    margin-top:200px;
+    justify-content: space-around;
+    position:fixed;
+    z-index: 10;
+    margin:0;
+    border-bottom:2px solid rgb(236, 162, 118);
+}
+header > h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(197,86,23);
+    padding:20px;
+}
+.coat{
+width:90px;
+height:70px;
+padding:10px;
+}
+.search{
+    padding:20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search input{
+    border-radius: 3px;
+    width:12rem;
+    height:1.2rem;
+}
+.homebtn{
+    color:rgb(197,86,23);
+    background:#ffe6d8;
+    margin-left:20px;
+    font-size:1.3em;
+    margin-top:0;
+    border:none;
+   padding:20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-content:center;
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+.homecontent{
+    display:none;
+    position: absolute;
+    background-color:rgb(197,86,23);
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(80, 79, 79, 0.2);
+    width:100%;
+    overflow:auto;
+}
+.homecontent a{
+    color:white;
+    padding:12px 18px;
+    text-decoration: none;
+    display:block;
+}
+.homecontent a:hover {
+    background-color:rgb(241, 222, 222);
+    color:black;
+}
+.dropdown:hover .homecontent{
+    display:block;
+}
+.dropdown:hover .homebtn{
+    background-color:#b69811;
+}
+main{
+    padding-top:95px;
+}
+.menulist a{
+    color:rgb(255, 153, 58);
+    text-decoration:none;
+}
+.menulist a {
+    font-size:0.8em;
+    padding:10px;
+    display:flex;
+}
+.menulist a:hover{
+    color:rgb(98, 250, 10);
+}
+.menulist{
+    background: rgb(54, 41, 66);
+}
+section{
+    margin-top:50px;
+   
+}
+#trending a{
+    text-decoration: none;
+    color:rgb(2, 52, 82);
+}
+#trending a:hover{
+    color:darkred;
+    text-decoration: underline;
+}
+ h1{
+    text-align:center;
+
+}
+.hot-news h2 a {
+    color:#8b321f;
+    text-decoration: none;
+}
+.trend{
+   padding-left:50px; 
+}
+.hot-news{
+    background:#b4a8a3;
+    margin:50px 150px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+     
+}
+.hot-news p  a{
+    color:black;
+    text-decoration: none;
+    max-width:80px;
+   
+}
+.hot-news a:hover{
+    color:rgb(32, 103, 161);
+    text-decoration:underline;
+}
+.hot-news img{
+    width:600px;
+    border-radius:4px;
+    border:2px solid green;
+}
+.articles{
+    text-align:center;
+    padding:20px;
+   
+}
+.more{
+    color:rgb(24, 1, 1);
+    background:linear-gradient(rgb(248, 112, 0), rgb(231, 129, 71));
+    width:110px;
+    height:30px;
+    border-radius:15px;
+    border:none;
+}
+.more:hover{
+    color:rgb(255, 249, 249);
+    background:green;
+}
+.Politics{
+    background:rgb(231, 196, 202);
+    margin:50px 150px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+}
+.Politics img{
+    width:500px;
+    border-radius:10px;
+    border:2px solid green;
+}
+.Politics p a{
+    color:rgb(255, 0, 149);
+  
+}
+.Politics p{
+    color:rgb(32, 14, 16);
+    font-weight:600;
+    font-size:0.9em;
+}
+.author{
+    font-size:0.8em;
+    font-style:italic;
+    text-decoration:underline;
+    color:rgb(1, 55, 131);
+}
+.hot-news h2 a {
+    color:#221713;
+    text-decoration: none;
+}
+h2 a{
+    color:#1f4e0a;
+    text-decoration: none;
+}
+.Politics h3 a{
+color:#fd8c46;
+text-decoration:none;
+font-size:1.1em;
+}
+.Politics h3 a:hover{
+   color:orangered; 
+   text-decoration: underline;
+}
+.Buhari{
+    background:linear-gradient(#b4a8a3, #b1ecd9);
+    margin:50px 150px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+}
+.Buhari img{
+    width:500px;
+    border-radius:10px;
+    border:2px solid rgb(128, 0, 0);
+}
+.Buhari a{
+    color:rgb(255, 0, 98);
+}
+.Buhari h3 a{
+    color:#0016da;
+    text-decoration:none;
+    font-size:1.1em;
+}
+.Buhari h3 a:hover{
+    color:rgb(255, 115, 0); 
+    text-decoration: underline;
+}
+.Buhari p{
+    color:rgb(32, 14, 16);
+    font-weight:600;
+    font-size:0.9em;
+}
+.National-Assembly{
+    background:linear-gradient(#f5baa1, #b6bbc0);
+    margin:50px 150px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+}
+.National-Assembly img{
+    width:500px;
+    border-radius:10px;
+    border:2px solid rgb(128, 0, 0);
+}
+.National-Assembly a{
+    color:rgb(255, 0, 98);
+}
+.National-Assembly h3 a{
+    color:#1f4e0a;
+    text-decoration:none;
+    font-size:1.1em;
+}
+.National-Assembly h3 a:hover{
+    color:rgb(255, 115, 0); 
+    text-decoration: underline;
+}
+.National-Assembly  p{
+    color:rgb(32, 14, 16);
+    font-weight:600;
+    font-size:0.9em;
+}
+.Economy{
+    background:linear-gradient(#f5a1e7, #b6bbc0);
+    margin:50px 150px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+}
+.Economy img{
+    width:500px;
+    border-radius:10px;
+    border:2px solid rgb(128, 0, 0);
+}
+.Economy a{
+    color:rgb(255, 0, 98);
+}
+.Economy p{
+    color:rgb(32, 14, 16);
+    font-weight:600;
+    font-size:0.9em;
+}
+.Economy  h3 a{
+    color:#1f4e0a;
+    text-decoration:none;
+    font-size:1.1em;
+}
+.Economy h3 a:hover{
+  color:rgb(255, 115, 0); 
+text-decoration: underline;
+}
+.topics{
+    margin:50px;
+    text-align:center;
+   
+}
+.topics p{
+    color:#1f4e0a;
+    text-decoration:none;
+    font-size:1.3em;
+    font-weight:600;
+    text-align: center;
+}
+.others li{
+    list-style:none;
+    margin:20px;
+    padding:30px;
+    background:linear-gradient(rgb(248, 112, 0), rgb(231, 129, 71));;
+}
+.others a{
+    font-size:1.2em;
+    font-weight:600;
+    color:white;
+    text-decoration: none;
+}
+.others li:hover{
+background:linear-gradient(green, lightgreen)
+}
+.others a:hover{
+color:orangered;
+}
+#select{
+    text-align:center;
+    background: palegoldenrod;
+    background-size:cover;
+}
+#select p{
+    padding-top:40px;
+    font-weight:600;
+    font-size:1.2em;
+
+}
+select{
+    font-size:1em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#select img{
+    width:300px;
+    padding:9px;
+    
+}
+span{
+    display:flex;
+}
+span  img{
+    text-align:center;
+    animation:move 3s 1s ease infinite ;
+}
+.antetokoumpo{
+    font-weight:500;
+    color:rgb(99, 84, 84);
+    font-size:6em;
+    margin-bottom:60px;
+}
+@keyframes move{
+    0%{
+        transform:translateX(0)
+    }
+    20%{
+        transform:translateX(800px)
+    }
+    100%{
+        transform:translateX(0)
+    }
+}
+.woman{
+    display:flex;
+}
+.woman h3{
+ color:#fd8c46;
+ text-align:center;
+ padding:10px;
+}
+.TV, .youtube{
+    padding-top:20px;
+    margin:0 40px;
+}
+.youtube img{
+    width:400px;
+}
+.follow h4{
+    font-size:2em;
+    color:#fd8c46;
+   
+}
+.follow h4:hover{
+    color:palevioletred;
+    text-decoration: underline;
+
+}
+.follow {
+     margin:10px;
+    text-align:center;
+    padding-top:20px;
+}
+.follow a{
+    padding:0 30px;
+    font-size:30px;
+    text-decoration:none;
+    color:rgb(0, 110, 255);
+}
+
+.follow a:hover{
+    color:green;
+    text-decoration: underline;
+}
+footer{
+    margin-top:40px;
+    padding-top:30px;
+    display:flex;
+    background:rgb(133, 123, 123);
+}
+footer p{
+    font-size:0.8em;
+    max-width:300px;
+}
+footer a{
+    color:black;
+    text-decoration:none;
+    padding:10px;
+}
+footer a:hover{
+    color:white;
+}
